@@ -6,13 +6,20 @@
     text-align: center;
     margin-top: 18%;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
     height: auto;
     border-color: black;
     border-radius: 15px;
     background-color: black;
     color: whitesmoke;
     padding: 18px 20px 18px;
+}
+#toclick:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: 1.5px solid black;
+    transition: 0.75s;
+
 }
 #drop {
     border-color: black;
@@ -30,6 +37,7 @@
 button {
     border: 0;
     color: black;
+    cursor: pointer;
 }
 img {
     margin-left: 1%;
