@@ -2,25 +2,7 @@
     border-color: black;
     background-color: #c0c0c0;
 }
-#toclick {
-    text-align: center;
-    margin-top: 18%;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    height: auto;
-    border-color: black;
-    border-radius: 15px;
-    background-color: black;
-    color: whitesmoke;
-    padding: 18px 20px 18px;
-}
-#toclick:hover {
-    color: black;
-    background-color: whitesmoke;
-    border: 1.5px solid black;
-    transition: 0.75s;
 
-}
 #drop {
     border-color: black;
 }
@@ -34,6 +16,15 @@
     justify-content: space-around;
     margin-top: 18%;
 }
+
+.container .child {
+    width: 25%;
+    height: 100-x;
+    background-color: whitesmoke;
+ 
+    
+}
+
 button {
     border: 0;
     color: black;
@@ -44,4 +35,22 @@ img {
     margin-right: 1.5%;
     margin-top: 0;
 }
+
+.home-text .text-h1 {
+    font-size: 55px;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: black;
+
+}
+
+.home-text .text-h2 {
+    font-size: 35px;
+    margin-left: 2rem;ç
+    color: black;
+
+
+}
+
 
